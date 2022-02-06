@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding:0;
+   box-sizing: border-box;
+   font-family: "Segoe UI", Helvetica,Arial,sans-serif;
+}
+
+/*Instagram logo*/
+.navbar-right li .logo {
+    width: 50%;
+}
+
+/* app store image block*/
+.navbar-right-bottom {
+    height: 100px;
+    width: 500px;
+    /*   background-color: rgb(23, 212, 39);*/
+    background-color:#fafafa;
+   /*border: 3px dashed black;*/
+    position:relative; /*allows position to be adjusted from top, bottom, LR*/
+    margin: auto; /*centers whole header*/
+    top: 250px;
+    left: 200px;
+    ;
+}
+
+/* app store images*/
+.app img[src]{
+    height: 50px;
+    padding: 2px;
+    float: left;
+    position: relative;
+    left: 20%;
+    top: 20px;
+    z-index: 1
+}
+
+/*email button*/
+ul li .email {
+    color: #8e8e8e;
+    background-color: #fafafa;;
+    font-size: 12px;
+    width: 270px;
+    height: 40px;
+    margin: -5px;
+    border color: #8e8e8e;
+    margin-top: 20px;
+    border-width: 1px;
+}
+
+/*password button*/
+ul li .enterpassword {
+    color: #8e8e8e;
+    background-color: #fafafa;;
+    font-size: 12px;
+    width: 270px;
+    height: 30px;
+    margin: -5px;
+    border-radius: 2px;
+    border color: #8e8e8e;
+    margin-top: 10px;
+    border-width: 1px;
+}
+
+/*login button*/
+ul li .login {
+    color:white;
+    background-color: rgb(169, 200, 236);
+    border: 0;
+    width: 270px;
+    margin-top: 20px;
+}
+
+/*facebook button*/
+ul li .facebook {
+    color: #385185;
+    background-color: none;
+    font-size: 14px;
+    font-weight: bold;
+    border: 0;
+    width: 170px;
+    margin-top: 30px;
+    background-color: white;
+}
+
+/*forgotten password button*/
+ul li .password {
+    color: #385185;
+    background-color: none;
+    font-size: 12px;
+    border: 0;
+    width: 170px;
+    background-color: white;
+}
+
+/*new account button*/
+ul li .new-account {
+    background-color: none;
+    font-size: 14px;
+    width: 350px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 0px;
+}
+
+body {
+    /*   background-color: rgb(10, 196, 196);*/
+    background-color:#fafafa;
+    /* border: 3px dashed black;*/
+}
+
+header .navbar-right {
+    background-color: white;
+    /*background-color: rgb(216, 37, 97);*/
+    border: 1px solid #dbdbdb;
+    /* border: 3px dashed double rgb(226, 115, 24);*/
+    z-index: 1; /*bring header in front*/
+    position:relative; /*allows position to be adjusted from top, bottom, LR*/
+    margin: auto; /*centers whole header*/
+    width: 350px;
+    height: 380px;
+    left: 200px;  /*in this case centers whole header 200px from center, because "margin: auto" is used*/
+    top: 140px;
+    text-align: center; /*centers text inside header*/
+}
+
+.navbar-left img{
+    background-color:#fafafa;
+    /*background-color: rgb(224, 33, 26);*/
+    /*border: 3px solid rgb(244, 248, 5);*/
+    position:relative; /*allows position to be adjusted from top, bottom, LR*/
+    margin: auto; /*centers whole header*/
+    width: 450px;
+   /* left: 200px;  */
+    /*in this case centers whole header 200px from center, because "margin: auto" is used*/
+    top: -380px;
+    margin-left: 180px;
+}
+
+
+
+footer {
+    background-color:#fafafa;
+    /*background-color: greenyellow;*/
+    /*border: 3px ridge black;*/
+    z-index: -2; /*brings footer in front*/
+    position:relative;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input[type=submit] {
+    background-color:#f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding:0px 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor:pointer;
+    user-select: none;
+ }
+
+footer ul {
+    list-style: none;
+    display: flex;
+}
+
+footer ul a {
+    font-size: 12px;
+    color: #8e8e8e;
+    padding: 10px 10px;
+}
+
+/* Questions
+1. How to center footer text?
+2. How to fix ".navbar-left img" to be relatie to center or "".navbar-right"?
+3. Remove vertical scrolling bar aka see page as full screen.
